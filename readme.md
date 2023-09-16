@@ -3,7 +3,7 @@ Beating reddit's rate limiting was pretty hard though
 and yes I can't still beat it 🤷
 
 ```bash
-cargo-watch -x 'run -- -sr=memes -n=20'
+cargo-watch -x 'run -- -s="memes" -n="20"'
 ```
 
 ### Breakdown
