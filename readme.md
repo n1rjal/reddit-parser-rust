@@ -8,5 +8,5 @@ cargo-watch -x 'run -- -sr=memes -n=20'
 
 ### Breakdown
 
--sr = sub reddit you want to look into
--n = number of top results you want to see
+<p>-sr = sub reddit you want to look into</p>
+<p>-n = number of top results you want to see</p>
