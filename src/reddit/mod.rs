@@ -13,7 +13,7 @@ enum BoolOrNumber {
 #[derive(Serialize, Deserialize)]
 pub struct RedditResponse {
     #[serde(rename = "kind")]
-    pub kind: String,
+    pub kind: Option<String>,
 
     #[serde(rename = "data")]
     pub data: RedditResponseWrapper,
